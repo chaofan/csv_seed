@@ -1,0 +1,16 @@
+,,,,,,
+"#model#User",,,,,,
+"#key#email",,,,,,
+"#command#destroy_all",,,,,,
+"#command#create_all",,,,,,
+"id","name","email","mobile","password","password_confirmation",
+1,"jiang chaofan","jiangchaofan@gmail.com",123,123,123,
+2,"alice","alice@notexists.atall",125,125,125,
+,,,,,,
+"#model#Order",,,,,,
+"#command#destroy_all",,,,,,
+"#command#create_all",,,,,,
+"id","user_id","total","receiver_mobile","receiver_address","state","order_items_count"
+1,1,10,"mob123","add123","ready",1
+2,1,20,"mob124","add124","sent",2
+3,2,30,"mob125","add125","received",3

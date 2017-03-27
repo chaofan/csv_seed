@@ -1,0 +1,8 @@
+,,,,,
+"#model#User",,,,,
+"#key#email",,,,,
+"#command#destroy_all",,,,,
+"#command#create_all",,,,,
+"id","name","email","mobile","password","password_confirmation"
+1,"jiang chaofan","jiangchaofan@gmail.com",123,123,123
+2,"alice","alice@notexists.atall",125,125,125

@@ -1,6 +1,5 @@
-# desc "Explaining what the task does"
 require 'thor/rails'
-require './lib/csv_seed'
+require 'csv_seed'
 
 class Csv < Thor
   include Thor::Rails
