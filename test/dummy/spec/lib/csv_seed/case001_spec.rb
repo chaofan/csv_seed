@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'case001 data can be imported' do
   before :each do
-    @result = `thor csv:seed --use case001`
+    @result = `csv_seed import --from case001`
   end
   it '1. creates 2 new records' do
     expect(User.count).to eq 2

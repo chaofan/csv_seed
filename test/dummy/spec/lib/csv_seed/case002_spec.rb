@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'case002 foreign key can be linked' do
   before :each do
-    @result = `thor csv:seed --use case002`
+    @result = `csv_seed import --from case002`
   end
   it '1. table counts is ok' do
     expect(User.count).to eq 2

@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe 'case003 foreign key can be linked to existing data' do
   before :each do
     # load users
-    `thor csv:seed --use case001`
+    `csv_seed import --from case001`
     # load orders and link users
-    `thor csv:seed --use case003`
+    `csv_seed import --from case003`
   end
   it '1. table counts is ok' do
     expect(User.count).to eq 2

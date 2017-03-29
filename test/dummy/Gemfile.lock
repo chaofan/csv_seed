@@ -1,9 +1,9 @@
 PATH
   remote: ../../
   specs:
-    csv_seed (0.0.4)
-      thor
-      thor-rails
+    csv_seed (0.1.0)
+      thor (~> 0.14)
+      thor-rails (~> 0.0.1)
 
 GEM
   remote: https://ruby.taobao.org/
@@ -45,8 +45,6 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.0)
-      public_suffix (~> 2.0, >= 2.0.2)
     arel (7.1.4)
     bcrypt (3.1.11)
     builder (3.2.3)
@@ -56,19 +54,12 @@ GEM
     debug_inspector (0.0.2)
     diff-lcs (1.3)
     erubis (2.7.0)
-    factory_girl (4.8.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (4.8.0)
-      factory_girl (~> 4.8.0)
-      railties (>= 3.0.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
       multi_json (~> 1.2)
-    launchy (2.4.3)
-      addressable (~> 2.3)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -83,7 +74,6 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
-    public_suffix (2.0.5)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -110,7 +100,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (12.0.0)
+    rake (10.5.0)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -163,13 +153,13 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt (~> 3.1.7)
+  bundler (~> 1.13)
   byebug
   csv_seed!
   database_cleaner
-  factory_girl_rails
   jbuilder (~> 2.5)
-  launchy
   rails (~> 5.0.0, >= 5.0.0.1)
+  rake (~> 10.0)
   rspec
   rspec-rails
   spring

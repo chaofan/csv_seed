@@ -2,7 +2,7 @@
 module CsvSeed
   module Uploader
     def self.file_path(path)
-      "#{Rails.root}/db/seed/#{path}"
+      "#{Rails.root}/db/seeds/#{path}"
     end
   end
 end
